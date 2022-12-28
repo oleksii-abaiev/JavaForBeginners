@@ -6,24 +6,24 @@ public class Console {
 	private static Scanner scanner;
 
 	static {		
-		scanner = new Scanner(System.in);    // инициализация объекта сканера  
-		scanner.useLocale(Locale.US);        // настройка американского формата чисел
+		scanner = new Scanner(System.in);    // РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РѕР±СЉРµРєС‚Р° СЃРєР°РЅРµСЂР°  
+		scanner.useLocale(Locale.US);        // РЅР°СЃС‚СЂРѕР№РєР° Р°РјРµСЂРёРєР°РЅСЃРєРѕРіРѕ С„РѕСЂРјР°С‚Р° С‡РёСЃРµР»
 	}
 	
 	static int readInt() {
-		return scanner.nextInt(); // ввод целочисленного значения x с клавиатуры	 
+		return scanner.nextInt(); // РІРІРѕРґ С†РµР»РѕС‡РёСЃР»РµРЅРЅРѕРіРѕ Р·РЅР°С‡РµРЅРёСЏ x СЃ РєР»Р°РІРёР°С‚СѓСЂС‹	 
 	}
 	
 	static double readDouble() {
-		return scanner.nextDouble(); // ввод вещественного значения с клавиатуры	
+		return scanner.nextDouble(); // РІРІРѕРґ РІРµС‰РµСЃС‚РІРµРЅРЅРѕРіРѕ Р·РЅР°С‡РµРЅРёСЏ СЃ РєР»Р°РІРёР°С‚СѓСЂС‹	
 	}
 
 	static void println(String s) {
-		System.out.println(s);  // вывод строки текста на экран и переход на новую строку
+		System.out.println(s);  // РІС‹РІРѕРґ СЃС‚СЂРѕРєРё С‚РµРєСЃС‚Р° РЅР° СЌРєСЂР°РЅ Рё РїРµСЂРµС…РѕРґ РЅР° РЅРѕРІСѓСЋ СЃС‚СЂРѕРєСѓ
 	}
 	
 	static void print(String s) {
-		System.out.print(s); // вывод строки текста на экран без перехода на новую строку
+		System.out.print(s); // РІС‹РІРѕРґ СЃС‚СЂРѕРєРё С‚РµРєСЃС‚Р° РЅР° СЌРєСЂР°РЅ Р±РµР· РїРµСЂРµС…РѕРґР° РЅР° РЅРѕРІСѓСЋ СЃС‚СЂРѕРєСѓ
 	}
 }
 
