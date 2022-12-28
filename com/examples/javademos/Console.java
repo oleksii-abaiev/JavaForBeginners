@@ -6,7 +6,7 @@ public class Console {
 	private static Scanner scanner;
 
 	static {		
-		scanner = new Scanner(System.in);    // инициализация объекта сканера
+		scanner = new Scanner(System.in);    // инициализация объекта сканера  
 		scanner.useLocale(Locale.US);        // настройка американского формата чисел
 	}
 	

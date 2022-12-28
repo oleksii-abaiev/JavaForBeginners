@@ -11,7 +11,7 @@ public class Demo3 {
 		// ничего не выводится (пусто), но курсор переводится на следующую строку
 		Console.println("");
 
-		// вывод двух строк текста
+		// вывод двух строк текста 
 		Console.println("First string");
 		Console.println("Second string");
 	}
